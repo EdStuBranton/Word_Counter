@@ -12,8 +12,8 @@ def collect_filenames(path):
 
 def open_file(filename):
     with open(r'add filepath' + '\\' + filename) as f:
-        content = f.read()
-    return content
+        content_file = f.read()
+    return content_file
 
 def unwanted_char_check(filecontent):
     pattern = "[^'a-zA-Z0-9 ]"
