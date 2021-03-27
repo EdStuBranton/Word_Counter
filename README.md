@@ -3,3 +3,4 @@ input: path to a folder filled with txt files
 
 output: returns a dictionary with every unique word and a counter.
 
+ps. currently only works on single file
